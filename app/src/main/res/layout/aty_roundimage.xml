@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fresco="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/round_fresco_01"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        fresco:roundAsCircle="true"
+        />
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/round_fresco_02"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="100dp"
+        fresco:roundedCornerRadius="8dp"
+        fresco:roundTopLeft="true"
+        fresco:roundTopRight="false"
+        fresco:roundBottomLeft="false"
+        fresco:roundBottomRight="false"/>
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/round_fresco_03"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="200dp"
+        fresco:roundedCornerRadius="8dp"
+        fresco:roundTopLeft="false"
+        fresco:roundTopRight="true"
+        fresco:roundBottomLeft="false"
+        fresco:roundBottomRight="false"/>
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/round_fresco_04"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginLeft="100dp"
+        fresco:roundedCornerRadius="8dp"
+        fresco:roundTopLeft="false"
+        fresco:roundTopRight="false"
+        fresco:roundBottomLeft="true"
+        fresco:roundBottomRight="false"/>
+
+    <com.facebook.drawee.view.SimpleDraweeView
+        android:id="@+id/round_fresco_05"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        fresco:roundedCornerRadius="8dp"
+        fresco:roundTopLeft="false"
+        fresco:roundTopRight="false"
+        fresco:roundBottomLeft="false"
+        fresco:roundBottomRight="true"/>
+
+</LinearLayout>
